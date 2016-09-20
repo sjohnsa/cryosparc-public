@@ -24,10 +24,10 @@ if ssh -T git@github.com 2>&1 | grep -q "successfully"; then
 else
     echo "! Error: git keys are not set up for github.com."
     echo "  Please add your ssh RSA public key to github.com."
-    if [[ -e "~/.ssh/id_rsa.pub" ]] ; then
+    if [[ -e "$HOME/.ssh/id_rsa.pub" ]] ; then
         echo "  Found an SSH key at ~/.ssh/id_rsa.pub"
         echo "  Copy the following key and add it to github.com, then run this script again:"
-        cat "~/.ssh/id_rsa.pub"
+        cat $HOME/.ssh/id_rsa.pub
     else
         echo "  A public key was not found in the standard location."
         read -p "  Create a new ssh key? y | n (abort): " -n 1 -r
@@ -36,7 +36,7 @@ else
             ssh-keygen -t rsa -N "" -f $HOME/.ssh/id_rsa.pub
             echo "  Created new key."
             echo "  Copy the following key and add it to github.com, then run this script again:"
-            cat "~/.ssh/id_rsa.pub"
+            cat $HOME/.ssh/id_rsa.pub
             exit 1
         else
             exit 1
