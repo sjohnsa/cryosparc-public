@@ -3,6 +3,9 @@
 # CryoSPARC web installer script
 # Copyright 2016 Structura Biotechnology Inc.
 
+# Command to fetch+run this:
+# bash -c "$(curl -sSL https://raw.githubusercontent.com/cryoem-uoft/cryosparc-public/master/install)"
+
 # abort if any commands fail
 set -e
 

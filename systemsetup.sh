@@ -26,7 +26,7 @@ fi
 if [[ "$setup_completed_level" -lt "2" ]] ; then   
 
 wget http://us.download.nvidia.com/XFree86/Linux-x86_64/367.44/NVIDIA-Linux-x86_64-367.44.run -O ./NVIDIA-Linux-Driver.run
-sudo stop lightdm
+sudo service lightdm stop
 sudo bash NVIDIA-Linux-Driver.run
 
 echo "Prepending NVIDIA to PATH and LD_LIBRARY_PATH..."
@@ -46,7 +46,7 @@ fi
 if [[ "$setup_completed_level" -lt "3" ]] ; then   
 
 wget http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda_7.5.18_linux.run -O ./NVIDIA-CUDA.run
-sudo stop lightdm
+sudo service lightdm stop
 sudo sh NVIDIA-CUDA.run
 
 setup_completed_level="3"
