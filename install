@@ -27,7 +27,9 @@ else
     if [[ -e "$HOME/.ssh/id_rsa.pub" ]] ; then
         echo "  Found an SSH key at ~/.ssh/id_rsa.pub"
         echo "  Copy the following key and add it to github.com, then run this script again:"
+        echo "--------------------------------------------------------------"
         cat $HOME/.ssh/id_rsa.pub
+        echo "--------------------------------------------------------------"
     else
         echo "  A public key was not found in the standard location."
         read -p "  Create a new ssh key? y | n (abort): " -n 1 -r
@@ -36,7 +38,9 @@ else
             ssh-keygen -t rsa -N "" -f $HOME/.ssh/id_rsa
             echo "  Created new key."
             echo "  Copy the following key and add it to github.com, then run this script again:"
+            echo "--------------------------------------------------------------"
             cat $HOME/.ssh/id_rsa.pub
+            echo "--------------------------------------------------------------"
             exit 1
         else
             exit 1
