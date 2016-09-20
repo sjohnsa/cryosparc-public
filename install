@@ -33,7 +33,7 @@ else
         read -p "  Create a new ssh key? y | n (abort): " -n 1 -r
         echo
         if [[ $REPLY =~ ^[Yy]$ ]] ; then
-            ssh-keygen -t rsa -N "" -f $HOME/.ssh/id_rsa.pub
+            ssh-keygen -t rsa -N "" -f $HOME/.ssh/id_rsa
             echo "  Created new key."
             echo "  Copy the following key and add it to github.com, then run this script again:"
             cat $HOME/.ssh/id_rsa.pub
