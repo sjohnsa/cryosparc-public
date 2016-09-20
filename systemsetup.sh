@@ -27,7 +27,8 @@ if [[ "$setup_completed_level" -lt "2" ]] ; then
 
 wget http://us.download.nvidia.com/XFree86/Linux-x86_64/367.44/NVIDIA-Linux-x86_64-367.44.run -O ./NVIDIA-Linux-Driver.run
 sudo service lightdm stop
-sudo bash NVIDIA-Linux-Driver.run
+chmod +x NVIDIA-Linux-Driver.run
+sudo ./NVIDIA-Linux-Driver.run
 
 echo "Prepending NVIDIA to PATH and LD_LIBRARY_PATH..."
 echo "export PATH=/usr/local/cuda/bin:$PATH" >> ~/.bashrc
@@ -47,7 +48,8 @@ if [[ "$setup_completed_level" -lt "3" ]] ; then
 
 wget http://developer.download.nvidia.com/compute/cuda/7.5/Prod/local_installers/cuda_7.5.18_linux.run -O ./NVIDIA-CUDA.run
 sudo service lightdm stop
-sudo sh NVIDIA-CUDA.run
+chmod +x NVIDIA-CUDA.run
+sudo ./NVIDIA-CUDA.run --override
 
 setup_completed_level="3"
 echo "$setup_completed_level" > ./setup_completed_level
@@ -58,7 +60,11 @@ fi
 if [[ "$setup_completed_level" -lt "4" ]] ; then   
 
 #write out current crontab
-sudo crontab -l > mycron
+if sudo crontab -l; then
+    sudo crontab -l > mycron
+else
+    touch mycron
+fi
 #echo new cron into cron file
 sudo echo "* * * * *  sync && echo 3 > /proc/sys/vm/drop_caches" >> mycron
 sudo echo "@reboot nvidia-smi -pm 1" >> mycron
