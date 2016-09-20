@@ -6,10 +6,6 @@
 # abort if any commands fail
 set -e
 
-echo $HOME
-echo "Tilde:"
-echo `~`
-
 # check if git is installed
 git_path=$(which git) || true
 if [[ -x "$git_path" ]] ; then
