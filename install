@@ -7,6 +7,7 @@
 set -e
 
 echo $HOME
+echo `~`
 
 # check if git is installed
 git_path=$(which git) || true
