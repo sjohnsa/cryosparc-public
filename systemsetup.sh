@@ -49,8 +49,8 @@ chmod +x NVIDIA-CUDA.run
 sudo ./NVIDIA-CUDA.run --override
 
 echo "Prepending NVIDIA to PATH and LD_LIBRARY_PATH..."
-echo "export PATH=/usr/local/cuda/bin:$PATH" >> ~/.bashrc
-echo "export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH" ~/.bashrc
+echo "export PATH=/usr/local/cuda/bin:\$PATH" >> ~/.bashrc
+echo "export LD_LIBRARY_PATH=/usr/local/cuda/lib64:\$LD_LIBRARY_PATH" >> ~/.bashrc
 
 setup_completed_level="3"
 echo "$setup_completed_level" > ./setup_completed_level
