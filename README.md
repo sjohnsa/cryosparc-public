@@ -10,3 +10,8 @@ bash -c "$(curl -sSL https://raw.githubusercontent.com/cryoem-uoft/cryosparc-pub
 ```
 bash -c "$(curl -sSL https://raw.githubusercontent.com/cryoem-uoft/cryosparc-public/master/systemsetup.sh)"
 ```
+
+# Command for developer installation:
+```
+bash -c "$(curl -sSL https://raw.githubusercontent.com/cryoem-uoft/cryosparc-public/master/developersetup.sh)"
+```
