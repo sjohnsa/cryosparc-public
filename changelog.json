@@ -1,9 +1,9 @@
 {
     "items": [
       {
-        title: 'Version 0.2.0',
-        category: 'New',
-        date: '2016-10-24'
+        "title": "Version 0.2.0",
+        "category": "New",
+        "date": "2016-10-24"
       }
     ]
 }
