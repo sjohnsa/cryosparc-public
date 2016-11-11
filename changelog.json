@@ -11,7 +11,6 @@
         "category": "New",
         "date": "2016-11-12",
         "description" : "New task type for 2D classification. Supports up to 512 2D classes."
-      },
-
+      }
     ]
 }
