@@ -1,10 +1,10 @@
 {
     "items": [
       {
-        "title": "Version 0.2.25",
+        "title": "Version 0.2.24",
         "category": "Update",
-        "date": "2016-11-11",
-        "description" : "Bug fixes across the board, especially in installation procedures."
+        "date": "2016-11-12",
+        "description" : "<ul>\n    <li>\n        Installer works without curl (uses wget instead)\n    </li>\n    <li>\n        Allow clearing cache and changing reserve space when cryosparc is stopped. Cache reserve is now 10GB by default. Make sure cryosparc checks for free disk space (5GB) before starting.\n    </li>\n    <li>\n        MongoDB and NodeJS are not auto-restarted when they crash, to protect from possible db corruption.\n    </li>\n    <li>\n        Installer now sets all package versions exactly to avoid conflicts.\n    </li>\n    <li>\n        Removed cryosparc restart command because it didn't work correctly. Use stop and start for now.\n    </li>\n    <li>\n        Fixed bug when there are spaces in the cryosparc installation directory.\n    </li>\n    <li>\n        Added changelog to dashboard.\n    </li>\n</ul>"
       }
     ]
 }
