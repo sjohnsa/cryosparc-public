@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2016-11-20T04:19:52.854524", 
+   "description": "<ul>\n<li>Users can now toggle viewing only their own experiments and everyone's experiments. Click on the 'person' icon under the New Experiment button on the experiments page.</li>\n<li>Dynamic masking in refinement is now looser by default (rolloff from 6A -&gt; 14A away from structure). There is also a new option to use the absolute value of the structure to generate the mask, so that strong negative regions will be included in the mask.</li>\n<li>SSD Caching is now optional, find the option in the Compute section of experiment parameters. Enabled by default.</li>\n<li>STAR file input support has been greatly improved. Now star files with multiple headers, multiple data blocks, comments, etc are all supported. Error messages have been improved for when some required columns are missing in star file inputs. </li>\n<li>When creating a dataset, specifying the image data location is now optional, and the default behaviour is to use the directory where the input star file is located. This means you can just point straight to a star file inside a RELION project directory and cryosparc will find the mrc files.</li>\n<li>The file browser has been improved: errors for missing directories do not cause crashes, symlinks are indicated, unmounting does not cause crashes, hidden files are hidden.</li>\n<li>Dynamic generated masks in refinement are now output in mrc files.</li>\n<li>Fixed bug where supplying pixel size or other microscope parameters would not override the values in the input star file.</li>\n<li>Fixed bug where cryosparc start or installer can fail with race condition while trying to set up mongodb</li>\n<li>Fixed bug where queued or running jobs could be accidentally deleted by user and lost</li>\n<li>Fixed bug where all plot files were named the same thing when downloaded</li>\n</ul>", 
+   "title": "Version 0.2.26"
+  }, 
+  {
+   "category": "Update", 
    "date": "2016-11-12T16:47:28.563714", 
    "description": "<ul>\n<li>Added <code>cryosparc tuning</code> command to tune RAM and GPU settings for maximum performance. This tuning is quite critical to obtaining good performace. Requires sudo.</li>\n</ul>", 
    "title": "Version 0.2.25"
