@@ -25,8 +25,8 @@ fi
 # LEVEL 2 ----------------------------------------------------
 if [[ "$setup_completed_level" -lt "2" ]] ; then   
 
-# wget http://us.download.nvidia.com/XFree86/Linux-x86_64/375.20/NVIDIA-Linux-x86_64-375.20.run -O ./NVIDIA-Linux-Driver.run
-wget http://us.download.nvidia.com/XFree86/Linux-x86_64/367.44/NVIDIA-Linux-x86_64-367.44.run -O ./NVIDIA-Linux-Driver.run
+wget http://us.download.nvidia.com/XFree86/Linux-x86_64/375.20/NVIDIA-Linux-x86_64-375.20.run -O ./NVIDIA-Linux-Driver.run
+# wget http://us.download.nvidia.com/XFree86/Linux-x86_64/367.44/NVIDIA-Linux-x86_64-367.44.run -O ./NVIDIA-Linux-Driver.run
 sudo service lightdm stop
 chmod +x NVIDIA-Linux-Driver.run
 sudo ./NVIDIA-Linux-Driver.run
