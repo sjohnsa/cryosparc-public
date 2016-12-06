@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-mkdir deploy
-cd deploy
+mkdir develop
+cd develop
 git clone git@github.com:cryoem-uoft/cryosparc-public.git
 git clone git@github.com:cryoem-uoft/cryosparc-package.git
 cd cryosparc-package
