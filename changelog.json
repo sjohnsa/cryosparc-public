@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2016-12-15T03:29:22.763551", 
+   "description": "<ul>\n<li>Important bug fixes</li>\n<li>Result selector only shows current user's experiments</li>\n</ul>", 
+   "title": "Version 0.2.32"
+  }, 
+  {
+   "category": "Update", 
    "date": "2016-12-08T21:38:49.336512", 
    "description": "<ul>\n<li>Warp-speed refinement now supports symmetry and should yield the same results as standard refinement, faster. You may want to re-process symmetric structures to see how it works. </li>\n<li>Particles can each have their own amplitude contrast now when using a star file input. This allows for basic phase-plate support.</li>\n<li>Dynamic masking now uses a filtered version of the struture to avoid spurious blips in the masks.</li>\n<li>Structure slice plots are now grey</li>\n<li>Clicking clear on a completed experiment now shows a confirmation dialog</li>\n<li>Fixed multithreading bugs in FSC computation, made faster</li>\n<li>Fixed bug in update that would cause older installations to fail</li>\n<li>Fixed bug in loading multiple star files </li>\n<li>Allow specifying the cache directory during the installation process</li>\n<li>Don't require cryoSPARC to be installed on the SSD any more</li>\n<li>Don't auto-add all mount points as bulk directories</li>\n<li>Installer no longer needs to write to bashrc </li>\n</ul>", 
    "title": "Version 0.2.31"
