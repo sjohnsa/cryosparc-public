@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2016-12-17T03:38:26.166191", 
+   "description": "<ul>\n<li>Phase plate data is now directly supported (using rlnPhaseShift from star files) and initial testing is successful</li>\n<li>FSC curves are now displayed both before and after auto-mask-tightening in the last iteration of refinement</li>\n<li>Plots are in color by default and gray has been added as an option in the Compute section of experiment settings</li>\n<li>New welcome + setup pages for first time install</li>\n<li>New EULA acceptance pages (Note: EULA has not changed)</li>\n<li>Select dataset from cards rather than dropdown in experiment creation</li>\n<li>Select task from cards rather than dropdown in experiment creation</li>\n<li>User settings now includes a toggle for whether or not to open experiments in a new tab</li>\n<li>UI bug fixes</li>\n</ul>", 
+   "title": "Version 0.2.36"
+  }, 
+  {
+   "category": "Update", 
    "date": "2016-12-15T03:29:22.763551", 
    "description": "<ul>\n<li>Important bug fixes</li>\n<li>Result selector only shows current user's experiments</li>\n</ul>", 
    "title": "Version 0.2.32"
