@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-01-07T20:31:30.023520", 
+   "description": "<ul>\n<li>Plots of viewing direction distributions are now generated automatically to assist in diagnosing issues with preferential orientations.</li>\n<li>Outputs from ab-initio reconstruction are now axis-aligned and upsampled to a minimum box size of 128^3.</li>\n</ul>", 
+   "title": "Version 0.2.39"
+  }, 
+  {
+   "category": "Update", 
    "date": "2016-12-25T20:50:01.291101", 
    "description": "<ul>\n<li>Phase plate datasets are now supported in warp speed refinement.</li>\n<li>FSC and noise plots look a little better when low resolutions are ticked.</li>\n<li>During ab initio, each iteration now prints out the current resolution in Angstroms and the progress through the dataset in terms of epochs.</li>\n<li>During ab initio plotting is now done every 25 iterations (previously every 20) in order to synchronize with structure saving which is done every 50 iterations.</li>\n<li>Limit the number of CPU threads used in a single job by numpy and FFT.</li>\n<li>When selecting particles from multiple input classes, sum their combined probabilities in case multiple classes in case multiple classes were similar and particles were evenly split.</li>\n<li>Fixes to Guinier plots and bfactor estimation.  It should now no longer give spurious results when the resolution is around 8A.</li>\n<li>Fixed bug which caused the contrast of the map to be inverted during refinement when the box size was not a multiple of 4.</li>\n<li>Random seed used for randomizing the dataset can now be recorded and set.  Default behaviour is unchanged where two runs will produce slightly different results each time but now this can be controlled if desired.</li>\n<li>When checking the cache for a file, verify it's modification time, size and partial contents.  Currently we check the first and last 1MB of the file which should be relatively fast.</li>\n<li>Updated dataset and experiment parameter descriptions. (Courtesy JLR.)</li>\n</ul>", 
    "title": "Version 0.2.38"
