@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-01-09T20:15:34.554071", 
+   "description": "<ul>\n<li>Fixes and changes to update system and user information</li>\n</ul>", 
+   "title": "Version 0.2.42"
+  }, 
+  {
+   "category": "Update", 
    "date": "2017-01-07T20:31:30.023520", 
    "description": "<ul>\n<li>Plots of viewing direction distributions are now generated automatically to assist in diagnosing issues with preferential orientations.</li>\n<li>Outputs from ab-initio reconstruction are now axis-aligned and upsampled to a minimum box size of 128^3.</li>\n</ul>", 
    "title": "Version 0.2.39"
