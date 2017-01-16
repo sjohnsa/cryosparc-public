@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-01-16T18:36:30.925214", 
+   "description": "<ul>\n<li>Descriptions and information has been added to task selection page</li>\n<li>Switched to new deployment system</li>\n<li>Switched to new license/activation and registration system to support wider academic release</li>\n<li>Upgrade NodeJS version</li>\n</ul>", 
+   "title": "Version 0.2.47"
+  }, 
+  {
+   "category": "Update", 
    "date": "2017-01-09T20:15:34.554071", 
    "description": "<ul>\n<li>Fixes and changes to update system and user information</li>\n</ul>", 
    "title": "Version 0.2.42"
