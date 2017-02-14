@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-02-14T18:03:43.812670", 
+   "description": "<ul>\n<li><strong>NEW</strong> Results-UI. See results in real time right on the experiments page, and select both structure and particle set results easily when starting a new experiment based on previous results. </li>\n<li>Reworked box size and maximum resolution parameters for ab-initio.  Users can now specify the starting and final resolution (by default 35A and 12A).  The final map is now output using the box size of the input data. This should not affect most users, however if you are performing 3D classification via ab-initio reconstruction, these parameters could be useful based on the scale of expected structural differences between conformations.</li>\n<li>Bug fix for icosahedral symmetry.</li>\n<li>Refinement now outputs the gold-standard split (A or B) for each particle in the csv meta data file.</li>\n<li>Added <code>cryosparc reinstallpycuda</code> command to re-install PyCUDA in case CUDA has been upgraded.</li>\n<li>Enable uploading of densities and maps directly through the browser (Import)</li>\n<li>Warp-speed refinement is now standard (and old refinement is removed)</li>\n<li>All paths internally are now stored relative to the cryoSPARC bulk directory to enable migration of the database.</li>\n<li>(Ab-initio) reconstruction can now use multiple structures as inputs if you want to perform non-ab-initio reconstruction with starting models that are different. You can also select the same starting models more than once each to make multiple classes initialized from each starting model.</li>\n<li>Admin users can now deactivate a cryoSPARC instance through the Admin panel to be able to migrate the license to another instance.</li>\n<li>Many bug fixes</li>\n</ul>", 
+   "title": "Version 0.3.0"
+  }, 
+  {
+   "category": "Update", 
    "date": "2017-01-16T18:36:30.925214", 
    "description": "<ul>\n<li>Descriptions and information has been added to task selection page</li>\n<li>Switched to new deployment system</li>\n<li>Switched to new license/activation and registration system to support wider academic release</li>\n<li>Upgrade NodeJS version</li>\n</ul>", 
    "title": "Version 0.2.47"
