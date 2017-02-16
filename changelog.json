@@ -2,9 +2,9 @@
  "items": [
   {
    "category": "Update", 
-   "date": "2017-02-15T08:52:30.461674", 
-   "description": "<ul>\n<li>Critical bug fix in installation and configuration (#138,#139) that affects new installations only</li>\n</ul>", 
-   "title": "Version 0.3.1"
+   "date": "2017-02-16T08:51:36.594953", 
+   "description": "<ul>\n<li>Critical bug fix in installation and configuration (#138,#139) that affects new installations only</li>\n<li>Small UI fixes to improve usability</li>\n<li>Bug fix for experimental mode</li>\n</ul>", 
+   "title": "Version 0.3.2"
   }, 
   {
    "category": "Update", 
