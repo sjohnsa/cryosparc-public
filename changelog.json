@@ -2,12 +2,6 @@
  "items": [
   {
    "category": "Update", 
-   "date": "2017-02-23T19:20:26.015418", 
-   "description": "<ul>\n<li>Refinement can now accept initial structures that are on the wrong greyscale, and the scale is automatically estimated before refinement.</li>\n<li>UI tweaks: dataset is now selectable from experiments page by clicking on the dataset name, and clearable by clicking the 'x' in the navigation bar. Dataset can also be selected while viewing a dataset's details page.</li>\n<li>Input maps are now resized before aligning symmetry, in case of large box-sizes.</li>\n<li>Support for new-style .par files</li>\n<li>Bug fix for sharpening jobs</li>\n<li>Multiple bug fixes for experimental mode</li>\n<li>Several small bug fixes in webapp and CLI tool</li>\n<li>Experiment results on experiments page now update in real time</li>\n</ul>", 
-   "title": "Version 0.3.4"
-  }, 
-  {
-   "category": "Update", 
    "date": "2017-02-16T08:51:36.594953", 
    "description": "<ul>\n<li>Critical bug fix in installation and configuration (#138,#139) that affects new installations only</li>\n<li>Small UI fixes to improve usability</li>\n<li>Bug fix for experimental mode</li>\n</ul>", 
    "title": "Version 0.3.2"
