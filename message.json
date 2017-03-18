@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "colour": "teal",
   "header": "Introducing an Updated Experiment Workflow",
   "content": "We've revamped the experiment creation workflow in cryoSPARC, making it easy to create new experiments using previously collected results.",
