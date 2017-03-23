@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-03-22T21:28:20.530600", 
+   "description": "<ul>\n<li>Major fixes for GPU memory use in refinement. Refinement can now handle larger box sizes, up to <code>768 ^ 3</code> on a 12GB GPU.</li>\n<li>User in-app feedback form and polls</li>\n<li>Password recovery</li>\n<li>Various bug fixes</li>\n</ul>", 
+   "title": "Version 0.3.9"
+  }, 
+  {
+   "category": "Update", 
    "date": "2017-02-23T22:13:00.992062", 
    "description": "<ul>\n<li>Refinement can now accept initial structures that are on the wrong greyscale, and the scale is automatically estimated before refinement.</li>\n<li>UI tweaks: dataset is now selectable from experiments page by clicking on the dataset name, and clearable by clicking the 'x' in the navigation bar. Dataset can also be selected while viewing a dataset's details page.</li>\n<li>Input maps are now resized before aligning symmetry, in case of large box-sizes.</li>\n<li>Support for new-style .par files</li>\n<li>Bug fix for sharpening jobs</li>\n<li>Multiple bug fixes for experimental mode</li>\n<li>Several small bug fixes in webapp and CLI tool</li>\n<li>Experiment results on experiments page now update in real time</li>\n</ul>", 
    "title": "Version 0.3.6"
