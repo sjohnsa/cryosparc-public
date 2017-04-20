@@ -3,5 +3,10 @@
     "id": 1,
     "question": "What features do you find most useful?",
     "answers": ["Ab-initio reconstruction", "Refinement speeds", "Web application/interface"]
+  },
+  {
+    "id": 2,
+    "question": "How many GPUs do you use cryoSPARC with?",
+    "answers": ["1", "2", "3", "4", "5+"]
   }
 ]
