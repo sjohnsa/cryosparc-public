@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-05-02T21:46:08.850216", 
+   "description": "<ul>\n<li>New generate-mask tool for creating soft masks by thresholding densities</li>\n<li>Fix in caching system to clear space for entire dataset at once</li>\n<li>Bug fixes</li>\n</ul>", 
+   "title": "Version 0.4.1"
+  }, 
+  {
+   "category": "Update", 
    "date": "2017-04-22T15:59:54.670104", 
    "description": "<ul>\n<li>Major UI updates</li>\n<li>cryoSPARC interface now scales with wider monitors to display more information at once</li>\n<li>Jobs that are queued can now be seen and managed from the new Queue page</li>\n<li>Updated experiment details page</li>\n<li>Sections of the dashboard are now customizable via user settings</li>\n<li>Number of ab-initio classes can now be overridden from the Ab-Initio section of parameters for an experiment that has already been created</li>\n<li>GPU assignment for a job can now be overridden in the Compute section of parameters</li>\n<li>FSC auto-sharpening now checks for mismatch betwen tight-masked and noise-substituted curves at both FSC=0.143 and FSC=0.5</li>\n<li>Fix for bug in sharpening job type that would cause incorrect results with large b-factors</li>\n<li>Bug fix in FSC calculation when half-maps have DC components with opposite sign</li>\n<li>Bug fix for refinements of low-resolution data</li>\n<li>Updates to plots (legend sizes, axis labels)</li>\n<li>Switch to faster FFT routines for particles</li>\n<li>Updated login page</li>\n<li>Various bug fixes in webapp and installation scripts</li>\n</ul>", 
    "title": "Version 0.4.0"
