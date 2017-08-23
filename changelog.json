@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-08-23T13:43:24.304914", 
+   "description": "<ul>\n<li>Change in 2D classification to support very large numbers of 2D classes</li>\n<li>Insecure installation mode</li>\n<li>Bug fixes</li>\n</ul>", 
+   "title": "Version 0.5.2"
+  }, 
+  {
+   "category": "Update", 
    "date": "2017-07-28T13:09:24.195488", 
    "description": "<ul>\n<li><strong>NEW</strong> Fast 2D Classification. Classify 200K particles into 100 classes in 75 minutes!</li>\n<li><strong>NEW</strong> Fast Ab-initio reconstructions (5-6x faster than previous versions) especially with multiple classes. Now, a 6-class ab-initio reconstruciton on 200K particles can be done in 90 minutes!</li>\n<li>New tools for selecting sets and subsets of particles</li>\n<li>New tools for aligning 3D maps</li>\n<li>New experiment type for computing and displaying ResLog-type plots</li>\n<li>New posterior precision plot in refinement experiments indicating missing orientations</li>\n<li>New disk-cleanup tool that can purge old experiments or remove intermediate results (keeping final results and plots) to save disk space</li>\n<li>Support for reading type 6 MRC files (16-bit unsigned integer)</li>\n<li>Amplitude contrast, accelerating voltage, and spherical abberation can now be different in all images in a dataset</li>\n<li>SSD Cache can now have a maximum size quota specified</li>\n<li>Many bug fixes</li>\n</ul>", 
    "title": "Version 0.5.0"
