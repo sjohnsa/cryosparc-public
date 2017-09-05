@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-09-05T01:30:46.715501", 
+   "description": "<ul>\n<li><strong>NEW</strong> Local resolution estimation experiment, with fast GPU implementation</li>\n<li>Bug fixes</li>\n</ul>", 
+   "title": "Version 0.5.3"
+  }, 
+  {
+   "category": "Update", 
    "date": "2017-08-23T13:43:24.304914", 
    "description": "<ul>\n<li>Change in 2D classification to support very large numbers of 2D classes</li>\n<li>Insecure installation mode</li>\n<li>Bug fixes</li>\n</ul>", 
    "title": "Version 0.5.2"
