@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-10-11T20:59:52.505216", 
+   "description": "<ul>\n<li><strong>NEW</strong> Ability to combine particles across datasets to create new datasets, useful for merging particles collected in multiple sessions. Also includes an option to re-stack particles into new particle stacks on disk. <a href=\"https://discuss.cryosparc.com/t/combining-merging-particles-into-new-datasets-plus-re-stacking/1375\">See usage instructions here.</a></li>\n<li>CSV files can now be used to create datasets</li>\n<li>Reset password functionality from the command line on the machine running cryosparc: <code>cryosparc resetpassword &lt;user email&gt; &lt;new password&gt;</code></li>\n<li>Update to pyCUDA version for CUDA 9.0 support</li>\n<li>New option to only select particles from ab-initio and heterogeneous refinement experiments that had their maximum assignment probability in the selected class(es) rather than using a threshold.</li>\n<li>Bug fix for re-centering during ab-initio reconstruction</li>\n<li>Bug fix for disk cleanup whereby experiments were not actually being deleted. Disk cleanup jobs should be re-run now to actually take effect.</li>\n<li>General bug fixes</li>\n</ul>", 
+   "title": "Version 0.5.6"
+  }, 
+  {
+   "category": "Update", 
    "date": "2017-09-05T01:30:46.715501", 
    "description": "<ul>\n<li><strong>NEW</strong> Local resolution estimation experiment, with fast GPU implementation</li>\n<li>Bug fixes</li>\n</ul>", 
    "title": "Version 0.5.3"
