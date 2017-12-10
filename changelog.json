@@ -2,6 +2,12 @@
  "items": [
   {
    "category": "Update", 
+   "date": "2017-12-09T21:00:47.280883", 
+   "description": "<ul>\n<li>Fix to SSD cache system to address concurrency bug when launching multiple experiments on the same dataset at the same time.</li>\n<li>Minor bug fixes</li>\n</ul>", 
+   "title": "Version 0.6.2"
+  }, 
+  {
+   "category": "Update", 
    "date": "2017-10-30T02:35:31.585625", 
    "description": "<ul>\n<li><strong>NEW</strong> Projects workflow for organizing datasets and experiments! Create new projects, add existing and new datasets to projects, and filter experiments by project or dataset.</li>\n<li>Fix for Unicode error</li>\n<li>Input structures can now be selected from different datasets</li>\n<li>General bug fixes</li>\n</ul>", 
    "title": "Version 0.6.1"
