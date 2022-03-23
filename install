@@ -16,8 +16,8 @@ if [[ -x "$git_path" ]] ; then
 else
     echo "! Error: git not found." 
     echo "  Please install git. Use "
-    echo "    sudo apt-get install git"
-    echo "  on Ubuntu/Debian."
+    echo "    sudo dnf install git"
+    echo "  on Centos*."
     exit 1
 fi
 
